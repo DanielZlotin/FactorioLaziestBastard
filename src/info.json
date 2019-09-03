@@ -1,12 +1,11 @@
 {
   "name": "FastLazyBastard",
-  "version": "1.4.0",
   "factorio_version": "0.17",
   "title": "FastLazyBastard",
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "# FastLazyBastard\nFor very lazy bastards.\n- Disables hand crafting\n- Start the game with the bare minimum needed\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n",
+  "description": "# FastLazyBastard\nFor very lazy bastards.\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n\n### For a great lazy experience check out:\n- Early Construction\n- Fill4Me\n\n### See also:\n- RSO\n- Bottleneck\n- VehicleSnap",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 0.13.9"
