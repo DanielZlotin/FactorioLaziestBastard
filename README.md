@@ -1,5 +1,5 @@
 # FastLazyBastard
-For very lazy bastards.
+### For very lazy bastards!
 - Longer reach
 - Faster walking speed
 - Better pollution visibility
