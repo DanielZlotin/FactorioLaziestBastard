@@ -1,7 +1,14 @@
 # FastLazyBastard
 For very lazy bastards.
-- Disables hand crafting
-- Start the game with the bare minimum needed
 - Longer reach
 - Faster walking speed
 - Better pollution visibility
+
+### For a great lazy experience check out:
+- Early Construction
+- Fill4Me
+
+### See also:
+- RSO
+- Bottleneck
+- VehicleSnap
