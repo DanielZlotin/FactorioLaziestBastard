@@ -5,8 +5,7 @@
 - Better pollution visibility
 
 ### For a great lazy experience check out:
-- Early Construction
-- Fill4Me
+- Early Construction mod
 
 ### See also:
 - RSO
