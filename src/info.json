@@ -5,7 +5,7 @@
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "# FastLazyBastard\n### For very lazy bastards!\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n\n### For a great lazy experience check out:\n- Early Construction mod\n\n### See also:\n- RSO\n- Bottleneck\n- VehicleSnap\n",
+  "description": "# FastLazyBastard\n### For very lazy bastards!\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 0.13.9",
@@ -21,5 +21,5 @@
     "? VehicleSnap"
   ],
   "license": "MIT",
-  "version": "2.2.0"
+  "version": "2.3.0"
 }
