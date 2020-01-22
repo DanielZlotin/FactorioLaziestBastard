@@ -1,6 +1,6 @@
 {
   "name": "FastLazyBastard",
-  "factorio_version": "0.18",
+  "factorio_version": "0.17",
   "title": "FastLazyBastard",
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
@@ -8,7 +8,17 @@
   "description": "# FastLazyBastard\n### For very lazy bastards!\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n\n### For a great lazy experience check out:\n- Early Construction mod\n\n### See also:\n- RSO\n- Bottleneck\n- VehicleSnap\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
-    "base >= 0.13.9"
+    "base >= 0.13.9",
+    "? AtomicArtillery",
+    "? Bottleneck",
+    "? early-construction",
+    "? EvoGUI",
+    "? KS_Combat",
+    "? LogisticTrainNetwork",
+    "? LTN_Tracker",
+    "? Robot_Battery_Research",
+    "? rso-mod",
+    "? VehicleSnap"
   ],
   "license": "MIT",
   "version": "2.2.0"
