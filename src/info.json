@@ -5,11 +5,11 @@
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "# FastLazyBastard\n### For very lazy bastards!\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n",
+  "description": "# FastLazyBastard\n### For very lazy bastards\n- Disables hand crafting (can be enabled in permissions menu)\n- Start the game with the bare minimum needed\n- Better map pollution visibility\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 0.13.9"
   ],
   "license": "MIT",
-  "version": "2.4.1"
+  "version": "3.0.0"
 }
