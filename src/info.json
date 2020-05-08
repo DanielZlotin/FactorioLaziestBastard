@@ -8,17 +8,7 @@
   "description": "# FastLazyBastard\n### For very lazy bastards!\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
-    "base >= 0.13.9",
-    "? AtomicArtillery",
-    "? Bottleneck",
-    "? early_construction",
-    "? EvoGUI",
-    "? KS_Combat",
-    "? LogisticTrainNetwork",
-    "? LTN_Tracker",
-    "? Robot_Battery_Research",
-    "? rso-mod",
-    "? VehicleSnap"
+    "base >= 0.13.9"
   ],
   "license": "MIT",
   "version": "2.4.1"
