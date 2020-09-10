@@ -1,5 +1,6 @@
 # FastLazyBastard
-### For very lazy bastards
-- Disables hand crafting (can be enabled in permissions menu)
-- Start the game with the bare minimum needed
+- Improves the freeplay spawn crash site with basic machines
+- Start the game with the minimum needed to win without handcrafting
+- Disables handcrafting (can be re-enabled in /permissions)
 - Better map pollution visibility
+- Also serves as a personal QoL modpack

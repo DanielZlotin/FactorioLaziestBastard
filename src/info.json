@@ -1,6 +1,6 @@
 {
   "name": "FastLazyBastard",
-  "factorio_version": "0.18",
+  "factorio_version": "1.0",
   "title": "FastLazyBastard",
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
@@ -8,7 +8,21 @@
   "description": "# FastLazyBastard\n### For very lazy bastards\n- Disables hand crafting (can be enabled in permissions menu)\n- Start the game with the bare minimum needed\n- Better map pollution visibility\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
-    "base >= 0.13.9"
+    "base >= 1.0.0",
+    "? bullet-trails",
+    "? early_construction",
+    "? EvoGUI",
+    "? Explosive Excavation",
+    "? ixuBottleneck",
+    "? QuickbarTemplates",
+    "? RateCalculator",
+    "? RecipeBook",
+    "? Robot_Battery_Research",
+    "? rso-mod",
+    "? textplates",
+    "? TimeControl",
+    "? vehicle_physics",
+    "? VehicleSnap"
   ],
   "license": "MIT",
   "version": "3.0.0"
