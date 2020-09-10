@@ -5,7 +5,7 @@
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "# FastLazyBastard\n### For very lazy bastards\n- Disables hand crafting (can be enabled in permissions menu)\n- Start the game with the bare minimum needed\n- Better map pollution visibility\n",
+  "description": "# FastLazyBastard\n- Improves the freeplay spawn crash site with basic machines\n- Start the game with the minimum needed to win without handcrafting\n- Disables handcrafting (can be re-enabled in /permissions)\n- Better map pollution visibility\n- Also serves as a personal QoL modpack\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 1.0.0",
@@ -25,5 +25,5 @@
     "? VehicleSnap"
   ],
   "license": "MIT",
-  "version": "3.0.0"
+  "version": "4.0.0"
 }
