@@ -1,9 +1,9 @@
 
 local spaceshipMachines = {
-	"crash-site-assembling-machine-1-repaired",
-	"crash-site-assembling-machine-2-repaired",
+	"crash-site-assembling-machine-1",
+	"crash-site-assembling-machine-2",
 	"crash-site-generator",
-	"crash-site-lab-repaired",
+	"crash-site-lab",
 	"crash-site-chest-1",
 	"crash-site-chest-2"
 }
@@ -66,7 +66,7 @@ function addCrashSiteMachine(surface, spaceshipPos, machine)
 	
 	if game.entity_prototypes[machine].type == "container" then
 		entity.insert({name="repair-pack", count=2})
-		entity.insert({name="small-electric-pole", count=2})
+		entity.insert({name="small-electric-pole", count=3})
 	end
 	entity.health = entity.health * 0.6
 	createExplosions(surface, position)
