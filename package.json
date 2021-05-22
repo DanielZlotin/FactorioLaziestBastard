@@ -9,6 +9,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "release": "node release"
+    "build": "node build"
   }
 }

@@ -4,3 +4,4 @@
 - Start the game with the minimum needed to win with ZERO handcrafts
 - Better map pollution cloud visibility
 - Handcrafting can be re-enabled in the "/permissions" menu
+- List of (optional) recommended mods in the dependencies
