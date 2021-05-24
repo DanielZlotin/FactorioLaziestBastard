@@ -65,7 +65,8 @@ function addCrashSiteMachine(surface, spaceshipPos, machine)
             force = "player" })
 	
 	if game.entity_prototypes[machine].type == "container" then
-		entity.insert({name="repair-pack", count=2})
+		entity.insert({name="iron-plate", count=1})
+		entity.insert({name="repair-pack", count=1})
 		entity.insert({name="small-electric-pole", count=3})
 	end
 	entity.health = entity.health * 0.6
