@@ -8,7 +8,7 @@
   "description": "# LaziestBastard\n\n- Use your crashed ship machinery to start automating as soon as you land. Slow and improvised but truly lazy!\n- Start the game with the minimum needed to win with ZERO handcrafts\n- Better map pollution cloud visibility\n- Handcrafting can be re-enabled in the \"/permissions\" menu\n- List of (optional) recommended mods in the dependencies\n",
   "source": "https://github.com/DanielZlotin/FactorioLaziestBastard",
   "dependencies": [
-    "base >= 1.1.0",
+    "base >= 1.1.41",
     "? bullet-trails",
     "? early_construction",
     "? StatsGui",
