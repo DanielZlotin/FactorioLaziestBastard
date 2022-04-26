@@ -68,6 +68,7 @@ function addCrashSiteMachine(surface, spaceshipPos, machine)
 		entity.insert({name="iron-plate", count=1})
 		entity.insert({name="repair-pack", count=1})
 		entity.insert({name="small-electric-pole", count=3})
+		entity.insert({name="cliff-explosives", count=20})
 	end
 	entity.health = entity.health * 0.6
 	createExplosions(surface, position)
