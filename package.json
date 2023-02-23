@@ -8,6 +8,9 @@
   },
   "license": "MIT",
   "dependencies": {},
+  "devDependencies": {
+    "@types/node": "latest"
+  },
   "scripts": {
     "build": "node build"
   }

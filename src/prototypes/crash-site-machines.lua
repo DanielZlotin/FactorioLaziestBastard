@@ -195,11 +195,8 @@ data:extend(
 				working_sound = {
 					sound = {
 						filename = "__base__/sound/lab.ogg",
-						volume = 0.7
-					},
-					audible_distance_modifier = 0.7,
-					fade_in_ticks = 4,
-					fade_out_ticks = 20
+						volume = 0.6
+					}
 				},
 				vehicle_impact_sound = sounds.generic_impact,
 				open_sound = sounds.machine_open,
@@ -209,14 +206,11 @@ data:extend(
 					usage_priority = "secondary-input",
 					emissions_per_minute = 4
 				},
-				energy_usage = "60kW",
-				researching_speed = 1,
+				energy_usage = "100kW",
+				researching_speed = 0.5,
 				inputs = { "automation-science-pack" }
 			},
-		})-- lab
-
-crash_site_assembling_machine_1_animation_speed = 1
-crash_site_assembling_machine_2_animation_speed = 1
+		})
 
 data:extend(
 		{
@@ -271,7 +265,7 @@ data:extend(
 							frame_count = 20,
 							line_length = 5,
 							shift = util.by_pixel(-12, 2),
-							animation_speed = crash_site_assembling_machine_1_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1.png",
 								priority = crash_site_sprite_priority,
@@ -280,7 +274,7 @@ data:extend(
 								frame_count = 20,
 								line_length = 5,
 								shift = util.by_pixel(-12, 3),
-								animation_speed = crash_site_assembling_machine_1_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						},
@@ -293,7 +287,7 @@ data:extend(
 							line_length = 5,
 							draw_as_shadow = true,
 							shift = util.by_pixel(4, 6),
-							animation_speed = crash_site_assembling_machine_1_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-shadow.png",
 								priority = crash_site_sprite_priority,
@@ -303,7 +297,7 @@ data:extend(
 								line_length = 5,
 								draw_as_shadow = true,
 								shift = util.by_pixel(4, 6),
-								animation_speed = crash_site_assembling_machine_1_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						}
@@ -320,7 +314,7 @@ data:extend(
 							line_length = 5,
 							shift = util.by_pixel(10, -10),
 							blend_mode = "additive",
-							animation_speed = crash_site_assembling_machine_1_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-light.png",
 								priority = crash_site_sprite_priority,
@@ -330,7 +324,7 @@ data:extend(
 								line_length = 5,
 								shift = util.by_pixel(12, -8),
 								blend_mode = "additive",
-								animation_speed = crash_site_assembling_machine_1_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						}
@@ -341,9 +335,10 @@ data:extend(
 				energy_source = {
 					type = "electric",
 					usage_priority = "secondary-input",
-					emissions_per_minute = 4
+					emissions_per_minute = 4,
+					drain = "0W"
 				},
-				energy_usage = "90kW",
+				energy_usage = "100kW",
 				ingredient_count = 3,
 				open_sound = sounds.machine_open,
 				close_sound = sounds.machine_close,
@@ -352,13 +347,11 @@ data:extend(
 					sound = {
 						{
 							filename = path .. "/sound/crash-site-assembling-machine.ogg",
-							volume = 0.8
+							volume = 0.3
 						},
 					},
-					--idle_sound = { filename = path .. "/sound/idle1.ogg", volume = 0.3 },
-					--max_sounds_per_type = 2,
 				}
-			}, -- rotation 1 repaired
+			},
 			{
 				type = "assembling-machine",
 				name = "crash-site-assembling-machine-2",
@@ -410,7 +403,7 @@ data:extend(
 							frame_count = 20,
 							line_length = 5,
 							shift = util.by_pixel(-4, -10),
-							animation_speed = crash_site_assembling_machine_2_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-2.png",
 								priority = crash_site_sprite_priority,
@@ -419,7 +412,7 @@ data:extend(
 								frame_count = 20,
 								line_length = 5,
 								shift = util.by_pixel(-4, -11),
-								animation_speed = crash_site_assembling_machine_2_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						},
@@ -432,7 +425,7 @@ data:extend(
 							line_length = 5,
 							draw_as_shadow = true,
 							shift = util.by_pixel(2, -8),
-							animation_speed = crash_site_assembling_machine_2_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-2-shadow.png",
 								priority = crash_site_sprite_priority,
@@ -442,7 +435,7 @@ data:extend(
 								line_length = 5,
 								draw_as_shadow = true,
 								shift = util.by_pixel(3, -9),
-								animation_speed = crash_site_assembling_machine_2_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						}
@@ -459,7 +452,7 @@ data:extend(
 							line_length = 5,
 							shift = util.by_pixel(-8, -6),
 							blend_mode = "additive",
-							animation_speed = crash_site_assembling_machine_2_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-2-light.png",
 								priority = crash_site_sprite_priority,
@@ -469,7 +462,7 @@ data:extend(
 								line_length = 5,
 								shift = util.by_pixel(-7, -4),
 								blend_mode = "additive",
-								animation_speed = crash_site_assembling_machine_2_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						}
@@ -480,9 +473,10 @@ data:extend(
 				energy_source = {
 					type = "electric",
 					usage_priority = "secondary-input",
-					emissions_per_minute = 4
+					emissions_per_minute = 4,
+					drain = "0W"
 				},
-				energy_usage = "90kW",
+				energy_usage = "100kW",
 				ingredient_count = 3,
 				open_sound = sounds.machine_open,
 				close_sound = sounds.machine_close,
@@ -491,23 +485,17 @@ data:extend(
 					sound = {
 						{
 							filename = path .. "/sound/crash-site-assembling-machine.ogg",
-							volume = 0.8
+							volume = 0.3
 						},
-					},
-					--idle_sound = { filename = path .. "/sound/idle1.ogg", volume = 0.3 },
-					--max_sounds_per_type = 2,
-					fade_in_ticks = 4,
-					fade_out_ticks = 20
+					}
 				}
-			}, -- rotation 2 repaired
-		})-- assembling-machine
-
-crash_site_generator_animation_speed = 1
+			},
+		})
 
 data:extend(
 		{
 			{
-				type = "electric-energy-interface",
+				type = "burner-generator",
 				name = "crash-site-generator",
 				icon = path .. "/graphics/icons/crash-site-generator.png",
 				icon_size = 64, icon_mipmaps = 4,
@@ -516,24 +504,24 @@ data:extend(
 				map_color = { r = 0, g = 0.365, b = 0.58, a = 1 },
 				max_health = 300,
 				corpse = "medium-remnants",
-				--subgroup = "other",
 				collision_box = { { -1.5, -0.9 }, { 0.9, 0.9 } },
 				selection_box = { { -1.5, -0.9 }, { 0.9, 0.9 } },
 				allow_copy_paste = false,
 				energy_source = {
-					type = "electric",
-					buffer_capacity = "1MJ",
-					usage_priority = "tertiary",
-					input_flow_limit = "0kW",
-					output_flow_limit = "1MW"
-				},
-
-				energy_production = "1MW",
-				energy_usage = "0kW",
-				light = { intensity = 0.75, size = 6, color = { r = 1.0, g = 1.0, b = 1.0 }, shift = { 64 / 64, -140 / 64 } },
+                  type = "electric",
+                  usage_priority = "secondary-output"
+                },
+                burner = {
+                  type = "burner",
+                  fuel_inventory_size = 1,
+                  effectivity = 0.75,
+                  emissions_per_minute = 10
+                },
+				max_power_output = "300kW",
+                light_flicker = {intensity = 1, size = 1, color = {r=1, g=1, b=1}},
+				light = { intensity = 0.75, size = 6, color = {r=1, g=1, b=1}},
 				continuous_animation = true,
 				integration_patch_render_layer = "decals",
-				-- also 'pictures' for 4-way sprite is available, or 'animation' resp. 'animations'
 				integration_patch = {
 					filename = path .. "/graphics/entity/crash-site-generator/crash-site-generator-ground.png",
 					priority = crash_site_sprite_priority,
@@ -565,7 +553,7 @@ data:extend(
 							line_length = 5,
 							repeat_count = 16,
 							shift = util.by_pixel(-10, -24),
-							animation_speed = crash_site_generator_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-generator/hr-crash-site-generator.png",
 								priority = crash_site_sprite_priority,
@@ -574,7 +562,7 @@ data:extend(
 								frame_count = 5,
 								line_length = 5,
 								repeat_count = 16,
-								animation_speed = crash_site_generator_animation_speed,
+								animation_speed = 1,
 								shift = util.by_pixel(-11, -23),
 								scale = 0.5
 							}
@@ -588,7 +576,7 @@ data:extend(
 							line_length = 4,
 							repeat_count = 5,
 							shift = util.by_pixel(24, -30),
-							animation_speed = crash_site_generator_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-generator/hr-crash-site-generator-beams.png",
 								priority = crash_site_sprite_priority,
@@ -597,7 +585,7 @@ data:extend(
 								frame_count = 16,
 								line_length = 4,
 								repeat_count = 5,
-								animation_speed = crash_site_generator_animation_speed,
+								animation_speed = 1,
 								shift = util.by_pixel(-8, -30),
 								scale = 0.5
 							}
@@ -612,7 +600,7 @@ data:extend(
 							repeat_count = 80,
 							shift = util.by_pixel(26, 4),
 							draw_as_shadow = true,
-							animation_speed = crash_site_generator_animation_speed,
+							animation_speed = 1,
 							hr_version = {
 								filename = path .. "/graphics/entity/crash-site-generator/hr-crash-site-generator-shadow.png",
 								priority = crash_site_sprite_priority,
@@ -623,13 +611,15 @@ data:extend(
 								repeat_count = 80,
 								draw_as_shadow = true,
 								shift = util.by_pixel(25, 5),
-								animation_speed = crash_site_generator_animation_speed,
+								animation_speed = 1,
 								scale = 0.5
 							}
 						},
 					}
 				},
-				vehicle_impact_sound = sounds.generic_impact
+				vehicle_impact_sound = sounds.generic_impact,
+                open_sound = sounds.machine_open,
+                close_sound = sounds.machine_close,
 			},
 
 		})
